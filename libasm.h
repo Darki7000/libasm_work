@@ -2,8 +2,9 @@
 #define LIBASM_H
 
 #include <stdio.h>
-#include <string.h>
 #include <fcntl.h>
+#include <errno.h>
+#include <unistd.h>
 
 size_t	ft_strlen(char *str);
 char    *ft_strcpy(char *destptr, const char *srcptr);
